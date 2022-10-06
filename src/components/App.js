@@ -30,6 +30,7 @@ const App = () => {
         type="text"
         placeholder="search.."
         value={input}
+        id='search-input'
         onChange={(e) => {
           setInput(e.target.value);
         }}
