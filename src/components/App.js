@@ -24,7 +24,7 @@ const App = () => {
   const [input, setInput] = useState("");
   
   return (
-    <div id="main">
+    <div>
       <h2>Search</h2>
       <input
         type="text"
